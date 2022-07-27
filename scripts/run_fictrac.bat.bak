@@ -1,0 +1,7 @@
+@echo off
+rem Script to run the daq client and fictrac in order to log all data from fictrac
+call conda.bat activate balltrack
+cd %~dp0
+cd ..\TEsetup
+call ..\bin\Release\fictrac.exe config.txt
+pause
