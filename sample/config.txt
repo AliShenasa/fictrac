@@ -1,22 +1,27 @@
-## FicTrac v2.1.0 config file (build date Sep 24 2020)
+## FicTrac v2.1.1 config file (build date Jul 20 2022)
 c2a_cnrs_xy      : { 191, 171, 128, 272, 20, 212, 99, 132 }
-c2a_r            : { 0.722445, -0.131314, -0.460878 }
-c2a_src          : c2a_cnrs_xy
-c2a_t            : { -0.674396, 0.389373, 2.889648 }
+c2a_cnrs_yz      : { 303, 250, 409, 251, 415, 356, 302, 352 }
+c2a_r            : { 1.446370, 1.591497, 1.070216 }
+c2a_src          : c2a_cnrs_yz
+c2a_t            : { -0.020773, 0.277350, 5.919685 }
 do_display       : y
 max_bad_frames   : -1
 opt_bound        : 0.35
 opt_do_global    : n
-opt_max_err      : -1
+opt_max_err      : -1.000000
 opt_max_evals    : 50
 opt_tol          : 0.001
 q_factor         : 6
-roi_circ         : { 63, 171, 81, 145, 106, 135, 150, 160 }
-roi_ignr         : { { 96, 156, 113, 147, 106, 128, 82, 130, 81, 150 }, { 71, 213, 90, 219, 114, 218, 135, 211, 154, 196, 150, 217, 121, 228, 99, 234, 75, 225 } }
+roi_c            : { -0.007425, 0.061140, 0.998102 }
+roi_circ         : { 300, 327, 298, 305, 309, 278, 335, 256, 393, 267, 412, 307 }
+roi_ignr         : { { 335, 247, 345, 270, 366, 271, 376, 244 }, { 296, 326, 420, 328, 419, 366, 360, 382, 306, 366 } }
+roi_r            : 0.087394
 save_debug       : n
 save_raw         : n
-src_fn           : sample.mp4
-src_fps          : -1
+src_fn           : 0
+src_fps          : -1.000000
 thr_ratio        : 1.25
 thr_win_pc       : 0.25
 vfov             : 45
+sock_host        : 127.0.0.1
+sock_port        : 2000
